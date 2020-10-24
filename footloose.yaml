@@ -2,7 +2,7 @@ cluster:
   name: footloose-k8s
   privateKey: cluster-key
 machines:
-- count: 3
+- count: 4
   spec:
     image: k1fm/k3s
     name: node%d
